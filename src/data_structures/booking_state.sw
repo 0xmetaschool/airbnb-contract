@@ -5,11 +5,11 @@ use core::ops::Eq;
 /// Represents the current state of the Booking.
 pub enum BookingState {
 
-    Available: (),
+    pub Available: (),
 
-    Booked: (),
+    pub Booked: (),
 
-    Cancelled: (),
+    pub Cancelled: (),
 }
 
 impl Eq for BookingState {

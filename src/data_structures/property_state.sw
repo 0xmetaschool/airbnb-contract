@@ -5,9 +5,9 @@ use core::ops::Eq;
 /// Represents the current state of the campaign.
 pub enum PropertyState {
     /// The campaign has been cancelled.
-    Listed: (),
+    pub Listed: (),
     /// The campain was successful
-    Unlisted: (),
+    pub Unlisted: (),
 }
 
 impl Eq for PropertyState {

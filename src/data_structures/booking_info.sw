@@ -5,15 +5,15 @@ use ::data_structures::booking_state::BookingState;
 /// General data structure containing information about a booking
 pub struct BookingInfo {
     /// The user who has created the booking
-    bookedBy: Identity,
+    pub bookedBy: Identity,
     ///booking from
-    bookingFrom: u64,
+    pub bookingFrom: u64,
     ///booking to
-    bookingTo: u64,
+    pub bookingTo: u64,
     //Booking Status
-    status: BookingState,
+    pub status: BookingState,
     ///Property booked
-    property_id: u64,
+    pub property_id: u64,
 }
 
 impl BookingInfo {

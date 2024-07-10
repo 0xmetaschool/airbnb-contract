@@ -3,8 +3,8 @@ library;
 /// Used to track the Listings that a user has created.
 pub struct PropertyImage {
     /// images of the property.
-    image1: b256,
-    image2: b256,
+    pub image1: b256,
+    pub image2: b256,
 }
 
 impl PropertyImage {

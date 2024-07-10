@@ -3,7 +3,7 @@ library;
 /// Used to track the Listings that a user has created.
 pub struct Property {
     /// The unique identifier for the Listing.
-    id: u64,
+    pub id: u64,
 }
 
 impl Property {

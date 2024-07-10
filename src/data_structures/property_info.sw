@@ -6,13 +6,13 @@ use ::data_structures::booking_state::BookingState;
 
 pub struct PropertyInfo {
     /// The user who has listed the Property
-    owner: Identity,
+    pub owner: Identity,
     ///Pincode of the property
-    pincode: u64,
+    pub pincode: u64,
     ///Listed or not
-    listed: PropertyState,
+    pub listed: PropertyState,
     ///Availability
-    available: BookingState,    
+    pub available: BookingState,    
 }
 
 impl PropertyInfo {
